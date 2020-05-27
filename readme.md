@@ -8,7 +8,7 @@ Encode a URL to a percent-encoded form, excluding already-encoded sequences. Bui
 ## API
 
 ```js
-import { encodeUrl } from "https://raw.githubusercontent.com/ako-deno/encodeurl/master/mod.ts";
+import { encodeUrl } from "https://deno.land/x/encodeurl/mod.ts";
 ```
 
 ### encodeUrl(url: string): string
@@ -39,8 +39,8 @@ import {
   serve,
   Response,
 } from "https://deno.land/std/http/server.ts";
-import { encodeUrl } from "https://raw.githubusercontent.com/ako-deno/encodeurl/master/mod.ts";
-import { escapeHtml } from "https://raw.githubusercontent.com/ako-deno/escape_html/master/mod.ts";
+import { encodeUrl } from "https://deno.land/x/encodeurl/mod.ts";
+import { escapeHtml } from "https://deno.land/x/escape_html/mod.ts";
 
 const server = serve("127.0.0.1:3000");
 console.log("Server listening on: 3000");
@@ -65,8 +65,8 @@ import {
   Response,
 } from "https://deno.land/std/http/server.ts";
 
-import { encodeUrl } from "https://raw.githubusercontent.com/ako-deno/encodeurl/master/mod.ts";
-import { escapeHtml } from "https://raw.githubusercontent.com/ako-deno/escape_html/master/mod.ts";
+import { encodeUrl } from "https://deno.land/x/encodeurl/mod.ts";
+import { escapeHtml } from "https://deno.land/x/escape_html/mod.ts";
 
 const server = serve("127.0.0.1:3000");
 console.log("Server listening on: 3000");
