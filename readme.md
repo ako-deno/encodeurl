@@ -2,6 +2,7 @@
 
 [![tag](https://img.shields.io/github/tag/ako-deno/encodeurl.svg)](https://github.com/ako-deno/encodeurl/tags)
 ![encodeurl-ci](https://github.com/ako-deno/encodeurl/workflows/encodeurl-ci/badge.svg)
+[![HitCount](http://hits.dwyl.com/ako-deno/encodeurl.svg)](http://hits.dwyl.com/ako-deno/encodeurl)
 
 Encode a URL to a percent-encoded form, excluding already-encoded sequences. Build for Deno, compatible with Browser. Based on `https://github.com/pillarjs/encodeurl`.
 
