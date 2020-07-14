@@ -1,10 +1,10 @@
 import {
   serve,
   Response,
-} from "https://deno.land/std/http/server.ts";
+} from "https://deno.land/std@0.60.0/http/server.ts";
 
 import { encodeUrl } from "../mod.ts";
-import { escapeHtml } from "https://raw.githubusercontent.com/ako-deno/escape_html/master/mod.ts";
+import { escapeHtml } from "https://deno.land/x/escape_html@1.0.0/mod.ts";
 
 const server = serve("127.0.0.1:3000");
 console.log("Server listening on: 3000");
